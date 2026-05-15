@@ -182,6 +182,26 @@
       padding: 7px 12px; border-radius: 999px;
     }
 
+    
+    /* ── IFRAME PREVIEWS ── */
+    .preview-iframe {
+      width: 400%;
+      height: 400%;
+      transform: scale(0.25);
+      transform-origin: 0 0;
+      border: none;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .iframe-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(8,9,16,0.1), rgba(8,9,16,0.7));
+      pointer-events: none;
+    }
+  
     /* ── BODY ── */
     .card-body {
       padding: 16px 18px 20px;
@@ -252,7 +272,10 @@
     <div class="card g1">
       <a class="card-inner" href="/lrmjprojcla.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmjprojcla.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">01 / 06</span>
@@ -271,7 +294,10 @@
     <div class="card g2">
       <a class="card-inner" href="/lrmj-glass-v1.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmj-glass-v1.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">02 / 06</span>
@@ -290,7 +316,10 @@
     <div class="card g3">
       <a class="card-inner" href="/lrmj-project%20DARK%20AESTHETIC%20template.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmj-project%20DARK%20AESTHETIC%20template.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">03 / 06</span>
@@ -309,7 +338,10 @@
     <div class="card g4">
       <a class="card-inner" href="/lrmj-project%20template.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmj-project%20template.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">04 / 06</span>
@@ -328,7 +360,10 @@
     <div class="card g5">
       <a class="card-inner" href="/lrmj-project-v4.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmj-project-v4.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">05 / 06</span>
@@ -347,7 +382,10 @@
     <div class="card g6">
       <a class="card-inner" href="/lrmj-template%203.html" target="_blank" rel="noreferrer">
         <div class="thumb">
-          <div class="thumb-bg"></div>
+          <div class="thumb-bg">
+            <iframe src="/lrmj-template%203.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
           <span class="thumb-num">06 / 06</span>
