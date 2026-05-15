@@ -101,13 +101,14 @@
 
     /* ── GRID ── */
     .grid {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       gap: 16px;
       padding-bottom: 80px;
     }
 
-    .card { grid-column: span 4; }
+    .card { width: calc(25% - 12px); }
 
     .card-inner {
       display: block;
@@ -241,8 +242,8 @@
       color: var(--muted); font-size: 0.88rem;
     }
 
-    @media (max-width: 1080px) { .card { grid-column: span 6; } }
-    @media (max-width: 640px)  { .card { grid-column: span 12; } .hero h1 { letter-spacing: -0.05em; } }
+    @media (max-width: 1080px) { .card { width: calc(50% - 8px); } }
+    @media (max-width: 640px)  { .card { width: 100%; } .hero h1 { letter-spacing: -0.05em; } }
   </style>
 </head>
 <body>
@@ -253,7 +254,7 @@
       <span class="logo-dot"></span>
       Studio
     </a>
-    <span class="nav-tag">6 templates</span>
+    <span class="nav-tag">7 templates</span>
   </div>
 </nav>
 
@@ -278,7 +279,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">01 / 06</span>
+          <span class="thumb-num">01 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -289,7 +290,6 @@
         </div>
       </a>
     </div>
-
     <!-- 02 -->
     <div class="card g2">
       <a class="card-inner" href="/lrmj-glass-v1.html" target="_blank" rel="noreferrer">
@@ -300,7 +300,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">02 / 06</span>
+          <span class="thumb-num">02 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -311,7 +311,6 @@
         </div>
       </a>
     </div>
-
     <!-- 03 -->
     <div class="card g3">
       <a class="card-inner" href="/lrmj-project%20DARK%20AESTHETIC%20template.html" target="_blank" rel="noreferrer">
@@ -322,7 +321,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">03 / 06</span>
+          <span class="thumb-num">03 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -333,9 +332,29 @@
         </div>
       </a>
     </div>
-
     <!-- 04 -->
     <div class="card g4">
+      <a class="card-inner" href="/lrmj.html" target="_blank" rel="noreferrer">
+        <div class="thumb">
+          <div class="thumb-bg">
+            <iframe src="/lrmj.html" class="preview-iframe" loading="lazy"></iframe>
+            <div class="iframe-overlay"></div>
+          </div>
+          <div class="thumb-shape shape-a"></div>
+          <div class="thumb-shape shape-b"></div>
+          <span class="thumb-num">04 / 07</span>
+        </div>
+        <div class="card-body">
+          <div class="card-row">
+            <span class="card-title">Project LRMJ</span>
+            <span class="card-arrow">↗</span>
+          </div>
+          <span class="card-tag">Template</span>
+        </div>
+      </a>
+    </div>
+    <!-- 05 -->
+    <div class="card g5">
       <a class="card-inner" href="/lrmj-project%20template.html" target="_blank" rel="noreferrer">
         <div class="thumb">
           <div class="thumb-bg">
@@ -344,7 +363,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">04 / 06</span>
+          <span class="thumb-num">05 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -355,9 +374,8 @@
         </div>
       </a>
     </div>
-
-    <!-- 05 -->
-    <div class="card g5">
+    <!-- 06 -->
+    <div class="card g6">
       <a class="card-inner" href="/lrmj-project-v4.html" target="_blank" rel="noreferrer">
         <div class="thumb">
           <div class="thumb-bg">
@@ -366,7 +384,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">05 / 06</span>
+          <span class="thumb-num">06 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -377,9 +395,8 @@
         </div>
       </a>
     </div>
-
-    <!-- 06 -->
-    <div class="card g6">
+    <!-- 07 -->
+    <div class="card g7">
       <a class="card-inner" href="/lrmj-template%203.html" target="_blank" rel="noreferrer">
         <div class="thumb">
           <div class="thumb-bg">
@@ -388,7 +405,7 @@
           </div>
           <div class="thumb-shape shape-a"></div>
           <div class="thumb-shape shape-b"></div>
-          <span class="thumb-num">06 / 06</span>
+          <span class="thumb-num">07 / 07</span>
         </div>
         <div class="card-body">
           <div class="card-row">
@@ -399,7 +416,6 @@
         </div>
       </a>
     </div>
-
   </section>
 
   <footer>

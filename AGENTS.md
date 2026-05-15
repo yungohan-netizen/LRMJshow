@@ -10,3 +10,4 @@
 ## Historique des tâches effectuées
 - Mise à jour de `index.html` : ajout du template `lrmjprojcla.html` en première position, décalage des 5 autres, et suppression des 4 emplacements vides (total : 6 cards).
 - Implémentation d'une génération automatique de miniatures (thumbnails) via des iframes miniaturisées (CSS scale) pour afficher un aperçu live des templates de façon performante et sans API externe.
+- Intégration de `lrmj.html` à la 4ème position (total : 7 cards), et mise à jour de la grille pour afficher 4 cards par ligne puis 3 sur la deuxième ligne.
