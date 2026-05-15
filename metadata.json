@@ -1,0 +1,6 @@
+{
+  "name": "Template Showcase",
+  "description": "A showcase for various website templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
